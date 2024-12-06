@@ -1,4 +1,5 @@
 ﻿using CodeVoorbeeld;
 
-School school = new School();
-school.name = "Fontys";
+School school = new School("Fontys Hogenscholen", 1000);
+
+school.setName("Fontys Hogeschool");

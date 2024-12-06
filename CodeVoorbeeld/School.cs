@@ -10,5 +10,16 @@ namespace CodeVoorbeeld
     {
         private string name = "Fontys";
         private int maxStudents = 1000;
+
+        public School(string name, int maxStudents)
+        {
+            this.name = name;
+            this.maxStudents = maxStudents;
+        }
+
+        public void setName(string name)
+        {
+            this.name = name;
+        }
     }
 }
