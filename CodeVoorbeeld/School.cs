@@ -10,6 +10,13 @@ namespace CodeVoorbeeld
     {
         private string name = "Fontys";
         private int maxStudents = 1000;
+        private int myVar;
+
+        public int MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
 
         public School(string name, int maxStudents)
         {
