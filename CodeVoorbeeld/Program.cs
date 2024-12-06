@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CodeVoorbeeld;
+
+School school = new School();
+school.name = "Fontys";
